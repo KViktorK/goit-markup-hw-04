@@ -127,7 +127,7 @@ header {
   margin-left: 50px;
 }
 .link-header a {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 
   color: var(--primary-text-color);
@@ -147,9 +147,16 @@ header {
   align-items: center;
   color: var(--primary-text-color);
 }
-
+.margin-test {
+  margin-right: 10px;
+}
+.link .icon {
+  margin-right: 10px;
+}
 .link-icon-item {
   fill: currentColor;
+  width: 16px;
+  height: 12px;
 }
 
 /* Logo */
