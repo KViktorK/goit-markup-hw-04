@@ -104,7 +104,7 @@ header {
 .sait-nav a {
   display: block;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
 
   color: var(--title-text-color);
 
@@ -128,7 +128,7 @@ header {
 }
 .link-header a {
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 
   color: var(--primary-text-color);
   font-weight: 500;
@@ -147,19 +147,15 @@ header {
   align-items: center;
   color: var(--primary-text-color);
 }
-.margin-test {
-  margin-right: 10px;
-}
 .link .icon {
   margin-right: 10px;
+  padding: 0;
 }
 .link-icon-item {
   fill: currentColor;
-  width: 16px;
-  height: 12px;
 }
 
-/* Logo */
+/* ===============Logo ================*/
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -168,8 +164,10 @@ header {
   letter-spacing: 0.03em;
 }
 
-/* Footer */
+/* ==============Footer============== */
 .container.footer {
+  display: flex;
+  justify-content: left;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -189,15 +187,45 @@ header {
 .link-footer {
   margin-top: 20px;
 }
+
+.footer-social-container {
+  margin-left: 70px;
+}
 .social-list-title {
   margin: 0;
+  margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  padding-top: 12px;
 }
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white-color);
+
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+.footer-social-list {
+  display: flex;
+}
+.footer-social-item {
+  margin-right: 10px;
+}
+.social-list-icon {
+  fill: currentColor;
+}
 /* CONTAINER */
 .container {
   width: 1200px;
@@ -252,6 +280,9 @@ header {
   min-width: 200px;
 }
 /* Section */
+.section {
+  padding-top: 94px;
+}
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -261,7 +292,6 @@ header {
 
   margin: 0px;
   padding-bottom: 50px;
-  padding-top: 94px;
 }
 
 /* Advantage-приемущества */
@@ -269,10 +299,18 @@ header {
 .advantage-box {
   display: flex;
   justify-content: space-around;
-  padding-top: 94px;
 }
 .advantage > .item + .item {
   margin-left: 30px;
+}
+.advantage-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 120px;
+
+  background-color: var(--team-background);
 }
 .advantage .title {
   color: var(--title-text-color);
@@ -344,9 +382,7 @@ header {
   width: 20px;
   fill: currentColor;
 }
-.social-link {
-  color: #afb1b8;
-}
+
 .social-list-item-link:hover,
 .social-list-item-link:focus {
   color: var(--white-color);
@@ -376,6 +412,34 @@ header {
   margin-left: 10px;
 }
 
+/* Customers */
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+.customers-list .customers-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #757575;
+  height: 90px;
+  width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.customers-link:hover,
+.customers-link:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.customers-icon {
+  height: 65px;
+  width: 65px;
+  fill: currentColor;
+}
+
 /* PORTFOLIO.HTML
 Filter-фыльтри*/
 .filter {
@@ -402,6 +466,8 @@ Filter-фыльтри*/
 .filter .link:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-btn {
   display: inline-block;
@@ -416,6 +482,16 @@ Filter-фыльтри*/
   margin-top: -30px;
   letter-spacing: 0.06em;
   margin-bottom: 94px;
+}
+.project-img-link {
+  display: inline-block;
+  margin: 0;
+  color: var(--primary-text-color);
+}
+.project-img-link:hover,
+.project-img-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project .item {
