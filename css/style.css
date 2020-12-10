@@ -277,7 +277,7 @@ header {
 }
 .hero-btn {
   display: inline-block;
-  padding: 10px 32px;
+  padding: 16px 32px;
   border-radius: 4px;
   text-align: center;
   min-width: 200px;
@@ -406,8 +406,6 @@ header {
 }
 .social-list-item {
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
 
   color: #afb1b8;
 }
@@ -425,7 +423,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #757575;
+  color: #afb1b8;
   height: 90px;
   width: 170px;
   border: 1px solid #afb1b8;
@@ -438,8 +436,6 @@ header {
 }
 
 .customers-icon {
-  height: 65px;
-  width: 65px;
   fill: currentColor;
 }
 
@@ -448,7 +444,6 @@ Filter-фыльтри*/
 .filter {
   display: flex;
   padding-bottom: 34px;
-  padding-top: 79px;
   justify-content: center;
 }
 
